@@ -60,6 +60,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "sandwichFunc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "bool",
@@ -101,11 +108,11 @@
 	},
 	"sources": {
 		"functionmodifier.sol": {
-			"keccak256": "0x71c3105e2d105b248592a441357408e8ab6b2fa2efeda8c25ea7c9dbfde22f12",
+			"keccak256": "0xa577ac586ed16ee39debbada5b4e081078b9d13984a7bcf822e263054e7de2ae",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5338f294b968b14a99ed86a3ffab27cba1df73a1d5ecb3489c24fa845c4acac1",
-				"dweb:/ipfs/Qmb63p8pd573wavVixv6FSXhj9KHqTMJ8oZPBqe2gbs3xZ"
+				"bzz-raw://eb235a9dcea9a5c6b19a7a80ae25b4787fe931972fe0a9c36a29a734e341fb38",
+				"dweb:/ipfs/QmQQKxMU3Hco3NvYRWKDEYc9YNPs47Umm4E6AFYc7jrwGn"
 			]
 		}
 	},

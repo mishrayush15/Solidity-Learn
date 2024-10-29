@@ -48,4 +48,18 @@ contract FunctionModifier {
      We can also attach multiple function modifier in a single functin, just like
      we attach mutiple middlewares in express app.
     */
+
+    // Sandwich Function Modifier -> Executes the modifier then the function and then again the modifier
+
+    // Below modifier worlflow ->
+    // Modifier -> Function -> Modifier
+    modifier sandwich() {
+        count += 10;
+        _;
+        count +=2;
+    }
+
+    function sandwichFunc() public sandwich {
+        count ++;
+    }
 }
