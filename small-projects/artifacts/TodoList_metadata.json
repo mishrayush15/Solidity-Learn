@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_todo",
+						"type": "string"
+					}
+				],
+				"name": "addToDo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "completeToDo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getToDo",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "todo",
+								"type": "string"
+							},
+							{
+								"internalType": "bool",
+								"name": "isCompleted",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct TodoList.ToDo[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "todo",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isCompleted",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"small-projects/todolist.sol": "TodoList"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"small-projects/todolist.sol": {
+			"keccak256": "0x742980f203d16a8e4ef1662f62391b37d9f87da8f2c5803380ad9846382f1a0a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://87e16f224f3b68d4d7c374aa49784001af994387a9931e65392184f85b6f5958",
+				"dweb:/ipfs/QmPn8dZB3mEVs1fRCQmtq4AVMmREa6XTtcv6gcbw8zAxQZ"
+			]
+		}
+	},
+	"version": 1
+}

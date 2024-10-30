@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"name": "setTest",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "text",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"small-projects/storage.sol": "SimpleStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"small-projects/storage.sol": {
+			"keccak256": "0x693e94a11f95302e4e61d272b8a24603ef0a805835e57da413861321c1bcc73d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f34f54cc2a217c1599099b11bd44c1444b0b05bf2e3276dcea85ec1cdf831a14",
+				"dweb:/ipfs/QmVMoXUP99tYrYuEFYuz6WqrP6W6sHfS3Ryo5GaKsw1v1B"
+			]
+		}
+	},
+	"version": 1
+}
