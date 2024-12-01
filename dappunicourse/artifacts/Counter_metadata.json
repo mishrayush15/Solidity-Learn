@@ -11,12 +11,8 @@
 				"type": "constructor"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "getCount",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -29,38 +25,10 @@
 			},
 			{
 				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_addr",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "ETH",
-						"type": "uint256"
-					}
-				],
-				"name": "setETHviaCall",
+				"name": "incCount",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -76,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"small-projects/etherwallet.sol": "EtherWallet"
+			"dappunicourse/Counter.sol": "Counter"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -90,12 +58,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"small-projects/etherwallet.sol": {
-			"keccak256": "0x9c777b8f96d5093baea49da3acf6896076a45ffb64a81d9feb380573519a6cb4",
+		"dappunicourse/Counter.sol": {
+			"keccak256": "0xc8d12cf81151978bc2d98728f97e0bd89736a6e8afc7697317b03f3d4d38ccba",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e184d1403a95aee74466a3ef60671ab5c54de6a91814855cf0c9afaeec992ed8",
-				"dweb:/ipfs/QmQg7toW4y3cVoBo4wENsdiDxrcn4PvXCqwL7Ydonj3Woc"
+				"bzz-raw://2e6bf0682ec4b7f5d9e1f92288e9359da66842fe2cfb8d611c2dc82fcc015bbe",
+				"dweb:/ipfs/QmSk2EkBF3qZqurKANfYh13ptvL6RRNA7tDXgNut7HgrR3"
 			]
 		}
 	},

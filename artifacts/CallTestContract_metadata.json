@@ -6,35 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
+				"inputs": [
+					{
+						"internalType": "contract TestContract",
+						"name": "addrOfTestContract",
+						"type": "address"
+					}
+				],
+				"name": "getX",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -43,24 +27,38 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_addr",
+						"internalType": "address",
+						"name": "addrOfTestContract",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "ETH",
+						"name": "valueOf_x",
 						"type": "uint256"
 					}
 				],
-				"name": "setETHviaCall",
+				"name": "setXWay1",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "receive"
+				"inputs": [
+					{
+						"internalType": "contract TestContract",
+						"name": "addrOfTestContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "valueOf_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setXWay2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -76,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"small-projects/etherwallet.sol": "EtherWallet"
+			"callingothercontracts.sol": "CallTestContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -90,12 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"small-projects/etherwallet.sol": {
-			"keccak256": "0x9c777b8f96d5093baea49da3acf6896076a45ffb64a81d9feb380573519a6cb4",
+		"callingothercontracts.sol": {
+			"keccak256": "0xc472851e0f93a636403055e8b8947c5fcbaf697e05683ecde77c98dd5beca9c0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e184d1403a95aee74466a3ef60671ab5c54de6a91814855cf0c9afaeec992ed8",
-				"dweb:/ipfs/QmQg7toW4y3cVoBo4wENsdiDxrcn4PvXCqwL7Ydonj3Woc"
+				"bzz-raw://9cda614a65e6019ed9685d668d4158f36170ef55de086725475a78fd390d1f23",
+				"dweb:/ipfs/QmdEDTjKNvZvJotjnNH3c45PwwppXDKpTuqx6qoQ7MLh2e"
 			]
 		}
 	},

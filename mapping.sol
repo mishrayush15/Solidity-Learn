@@ -14,7 +14,7 @@ contract Mappings {
     // Setting up key and value in mapping is only allowed in function
     function mappingExamples() public {
 
-        // Syntex -> mapping-name[key] = value;
+        // Syntex -> mappingName[key] = value;
         // Setting the value
         balances[msg.sender] = 123;
         // Gettin the value

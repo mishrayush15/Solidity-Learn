@@ -78,11 +78,11 @@
 	},
 	"sources": {
 		"small-projects/etherwallet.sol": {
-			"keccak256": "0xc9fbd7bf9f570ea82006cc7f338388d6d2b13b328a9bdde646d85e8d565aef8f",
+			"keccak256": "0x9c777b8f96d5093baea49da3acf6896076a45ffb64a81d9feb380573519a6cb4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://72850ed36ad4e9d6e0de00cde391d6e05cf6e4a78fc97baf33a94b294c35205a",
-				"dweb:/ipfs/QmYWdKaGnAT9AsD9y2mxpsqMm856CVxg8XVrSPuawwdEhv"
+				"bzz-raw://e184d1403a95aee74466a3ef60671ab5c54de6a91814855cf0c9afaeec992ed8",
+				"dweb:/ipfs/QmQg7toW4y3cVoBo4wENsdiDxrcn4PvXCqwL7Ydonj3Woc"
 			]
 		}
 	},
